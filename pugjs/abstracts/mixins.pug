@@ -1,0 +1,17 @@
+mixin seoMetadata(prop, val)
+  meta(
+    property=prop,
+    content!=val
+  )
+
+mixin twitterMetadata(name, val)
+  meta(
+    name="twitter:" + name,
+    content!=val
+  )
+
+mixin styleLink(rel, href)
+  link(
+    rel=rel,
+    href!=href
+  )

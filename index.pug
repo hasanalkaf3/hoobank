@@ -1,0 +1,17 @@
+include pugjs/abstracts/variables
+include pugjs/abstracts/mixins
+
+doctype html
+html(lang="en")
+  head
+    include pugjs/head/main-meta
+    include pugjs/head/seo
+    include pugjs/head/links
+
+  body
+    #root
+
+    script(
+      type="module",
+      src="/src/main.jsx"
+    )
