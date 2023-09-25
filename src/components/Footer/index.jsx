@@ -22,7 +22,7 @@ const Footer = () => (
       >
         {footerLinks.map((footerLink) => (
           <div
-            key={footerLink.key}
+            key={footerLink.title}
             className={`flex flex-col ss:my-0 my-4 min-w-[150px]`}
           >
             <h4
