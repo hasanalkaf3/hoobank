@@ -41,11 +41,11 @@ const FeatureCard = ({ icon, title, content, ind }) => (
     </div>
 
     <div className={`flex-1 flex flex-col ml-3`}>
-      <h4
+      <h3
         className={`font-poppins font-semibold text-white text-[18px] leading-[23px] mb-1`}
       >
         {title}
-      </h4>
+      </h3>
       <p
         className={`font-poppins font-normal text-dimWhite text-[16px] leading-[24px] mb-1`}
       >

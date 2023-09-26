@@ -25,11 +25,11 @@ const Footer = () => (
             key={footerLink.title}
             className={`flex flex-col ss:my-0 my-4 min-w-[150px]`}
           >
-            <h4
+            <h3
               className={`font-poppins font-medium text-[18px] leading-[27px] text-white`}
             >
               {footerLink.title}
-            </h4>
+            </h3>
 
             <ul className={`list-none mt-4`}>
               {footerLink.links.map((link, ind) => (
